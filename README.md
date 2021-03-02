@@ -29,7 +29,7 @@ Import Pyarrow.parquet
 Import JSON
 ```
 
-Step 4. In the function labeled 'files', replace the included file path for each data file with your own local paths.
+Step 4. In the function labeled 'files' in the __main__.py file, replace the included file path for each data file with your own local paths.
 
 ```
 parquet_file = r'your\file\path\here'
