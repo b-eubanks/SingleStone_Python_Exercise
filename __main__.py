@@ -20,7 +20,5 @@ def dataframes():
 
 	df3 = pd.merge(df1, df2, on='cid')
 
-	print('Operation successful')
-
 
 df3.to_json("results.json")
